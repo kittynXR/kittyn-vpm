@@ -19,7 +19,7 @@ A VRChat package that enhances your immersive experience with advanced scaling f
 
 - [VPM Repository](https://vpm.kittyn.cat)
 - [Main Website](https://kittyn.cat)
-- [GitHub Repository](https://github.com/kittyn/kittyn-vpm)
+- [GitHub Repository](https://github.com/kittynXR/kittyn-vpm)
 
 ## 📝 License
 
