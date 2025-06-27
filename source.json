@@ -17,9 +17,7 @@
         {
             "name":"cat.kittyn.immersive-scaler",
             "releases":[
-                "https://github.com/kittynXR/imscaler/releases/download/v1.0.10/cat.kittyn.immersive-scaler-1.0.10.zip",
-                "https://github.com/kittynXR/imscaler/releases/download/v1.0.9/cat.kittyn.immersive_scaler-1.0.9.zip",
-                "https://github.com/kittynXR/imscaler/releases/download/v1.0.8/cat.kittyn.immersive_scaler-1.0.8.zip"
+                "https://github.com/kittynXR/imscaler/releases/download/v1.0.10/cat.kittyn.immersive-scaler-1.0.10.zip"
             ]
         }
     ]
