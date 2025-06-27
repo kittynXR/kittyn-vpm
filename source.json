@@ -1,27 +1,23 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "name":"Kittyn VPM Packages",
+    "id":"cat.kittyn.vpm",
+    "url":"https://vpm.kittyn.cat/index.json",
     "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "email":"contact@kittyn.cat",
+        "name":"Kittyn",
+        "url":"https://kittyn.cat"
     },
-    "description":"Example listing of VRChat packages",
+    "description":"VPM packages for VRChat by Kittyn",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
+        "url":"https://github.com/kittyn/kittyn-vpm",
         "text":"View on GitHub"
     },
-    "bannerUrl":"banner.png",
-    "githubRepos":[
-        "vrchat-community/clientsim"
-    ],
+    "bannerUrl":"VCC_banner.png",
     "packages":[
         {
-            "name":"com.vrchat.udonsharp",
+            "name":"cat.kittyn.immersive-scaler",
             "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
+                "https://immersive_scaler.kittyn.cat/cat.kittyn.immersive-scaler.zip"
             ]
         }
     ]
