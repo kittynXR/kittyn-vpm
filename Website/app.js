@@ -40,12 +40,13 @@ const setTheme = () => {
 
 const createBubble = () => {
   const bubble = document.createElement('div');
-  bubble.className = 'bubble';
+  const isPink = Math.random() < 0.5;
+  bubble.className = isPink ? 'bubble bubble-pink' : 'bubble';
   
   const size = Math.random() * 60 + 20;
   const startX = Math.random() * window.innerWidth;
   const endX = startX + (Math.random() - 0.5) * 200;
-  const duration = Math.random() * 8 + 12;
+  const duration = Math.random() * 6 + 10;
   const delay = Math.random() * 4;
   
   bubble.style.width = `${size}px`;
@@ -65,9 +66,9 @@ const createBubble = () => {
 };
 
 const initBubbles = () => {
-  setInterval(createBubble, 1500);
-  for (let i = 0; i < 6; i++) {
-    setTimeout(createBubble, i * 300);
+  setInterval(createBubble, 800);
+  for (let i = 0; i < 10; i++) {
+    setTimeout(createBubble, i * 200);
   }
 };
 

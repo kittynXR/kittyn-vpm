@@ -56,23 +56,39 @@ body {
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(135deg, 
-    rgba(255, 255, 255, 0.1) 0%, 
-    rgba(255, 255, 255, 0.05) 50%, 
-    rgba(255, 255, 255, 0.02) 100%);
+    rgba(255, 255, 255, 0.15) 0%, 
+    rgba(255, 255, 255, 0.08) 50%, 
+    rgba(255, 255, 255, 0.04) 100%);
   backdrop-filter: blur(2px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   animation: float var(--duration) ease-in-out infinite;
   animation-delay: var(--delay);
   opacity: 0;
 }
 
+.bubble-pink {
+  background: linear-gradient(135deg, 
+    rgba(255, 105, 180, 0.15) 0%, 
+    rgba(255, 105, 180, 0.08) 50%, 
+    rgba(255, 105, 180, 0.04) 100%);
+  border: 1px solid rgba(255, 105, 180, 0.15);
+}
+
 @media (prefers-color-scheme: dark) {
   .bubble {
     background: linear-gradient(135deg, 
-      rgba(100, 149, 237, 0.15) 0%, 
-      rgba(100, 149, 237, 0.08) 50%, 
-      rgba(100, 149, 237, 0.03) 100%);
-    border: 1px solid rgba(100, 149, 237, 0.15);
+      rgba(100, 149, 237, 0.2) 0%, 
+      rgba(100, 149, 237, 0.12) 50%, 
+      rgba(100, 149, 237, 0.06) 100%);
+    border: 1px solid rgba(100, 149, 237, 0.2);
+  }
+  
+  .bubble-pink {
+    background: linear-gradient(135deg, 
+      rgba(255, 105, 180, 0.2) 0%, 
+      rgba(255, 105, 180, 0.12) 50%, 
+      rgba(255, 105, 180, 0.06) 100%);
+    border: 1px solid rgba(255, 105, 180, 0.2);
   }
 }
 
