@@ -19,6 +19,12 @@
             "releases": [
                 "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.1/cat.kittyn.comfi-hierarchy-1.0.1.zip"
             ]
+        },
+        {
+            "name": "cat.kittyn.enhanced-dynamics",
+            "releases": [
+                "https://github.com/kittynXR/enhanced-dynamics/releases/download/v1.0.1/cat.kittyn.enhanced-dynamics-1.0.1.zip"
+            ]
         }
     ]
 }
