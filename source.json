@@ -15,6 +15,13 @@
     "bannerUrl": "VCC_banner.png",
     "packages": [
         {
+            "name": "cat.kittyn.comfi-hierarchy",
+            "releases": [
+                "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.2/cat.kittyn.comfi-hierarchy-1.0.2.zip",
+                "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.1/cat.kittyn.comfi-hierarchy-1.0.1.zip"
+            ]
+        },
+        {
             "name": "cat.kittyn.enhanced-dynamics",
             "releases": [
                 "https://github.com/kittynXR/enhanced-dynamics/releases/download/v1.0.3/cat.kittyn.enhanced-dynamics-1.0.3.zip",
@@ -23,10 +30,9 @@
             ]
         },
         {
-            "name": "cat.kittyn.comfi-hierarchy",
+            "name": "cat.kittyn.immersive-scaler",
             "releases": [
-                "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.2/cat.kittyn.comfi-hierarchy-1.0.2.zip",
-                "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.1/cat.kittyn.comfi-hierarchy-1.0.1.zip"
+                "https://github.com/kittynXR/immersive-scaler/releases/download/v1.0.2/cat.kittyn.immersive-scaler-1.0.2.zip"
             ]
         }
     ]
