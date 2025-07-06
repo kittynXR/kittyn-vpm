@@ -1,0 +1,59 @@
+name: Update Package Listing
+
+on:
+  repository_dispatch:
+    types: [update-package]
+  workflow_dispatch:
+    inputs:
+      package_name:
+        description: 'Package name (e.g., cat.kittyn.immersive-scaler)'
+        required: true
+        type: string
+      release_url:
+        description: 'Release download URL'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-listing:
+    name: Update Package in Listing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Update package in source.json
+        run: |
+          node scripts/update-package.js \
+            "${{ github.event.client_payload.package_name || inputs.package_name }}" \
+            "${{ github.event.client_payload.release_url || inputs.release_url }}"
+      
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          PACKAGE_NAME="${{ github.event.client_payload.package_name || inputs.package_name }}"
+          
+          git add source.json
+          git commit -m "Update $PACKAGE_NAME to latest release" || echo "No changes to commit"
+          git push
+      
+      - name: Trigger listing rebuild
+        if: success()
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: rebuild-listing
+          token: ${{ secrets.GITHUB_TOKEN }}
