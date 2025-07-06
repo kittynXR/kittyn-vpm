@@ -6,7 +6,10 @@ on:
     types: [rebuild-listing]
   push:
     branches: main
-    paths: source.json
+    paths: 
+      - source.json
+      - VCC_banner.png
+      - Website/**
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
