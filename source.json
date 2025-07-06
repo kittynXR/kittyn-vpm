@@ -1,22 +1,28 @@
 {
-    "name":"Kittyn VPM Packages",
-    "id":"cat.kittyn.vpm",
-    "url":"https://vpm.kittyn.cat/index.json",
-    "author":{
-        "email":"contact@kittyn.cat",
-        "name":"Kittyn",
-        "url":"https://kittyn.cat"
+    "name": "Kittyn VPM Packages",
+    "id": "cat.kittyn.vpm",
+    "url": "https://vpm.kittyn.cat/index.json",
+    "author": {
+        "email": "contact@kittyn.cat",
+        "name": "Kittyn",
+        "url": "https://kittyn.cat"
     },
-    "description":"VPM packages for VRChat by Kittyn",
-    "infoLink":{
-        "url":"https://github.com/kittynXR/kittyn-vpm",
-        "text":"View on GitHub"
+    "description": "VPM packages for VRChat by Kittyn",
+    "infoLink": {
+        "url": "https://github.com/kittynXR/kittyn-vpm",
+        "text": "View on GitHub"
     },
-    "bannerUrl":"VCC_banner.png",
-    "packages":[
+    "bannerUrl": "VCC_banner.png",
+    "packages": [
         {
-            "name":"cat.kittyn.immersive-scaler",
-            "releases":[
+            "name": "cat.kittyn.comfi-hierarchy",
+            "releases": [
+                "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.1/cat.kittyn.comfi-hierarchy-v1.0.1.zip"
+            ]
+        },
+        {
+            "name": "cat.kittyn.immersive-scaler",
+            "releases": [
                 "https://github.com/kittynXR/imscaler/releases/download/v1.0.10/cat.kittyn.immersive-scaler-1.0.10.zip"
             ]
         }
