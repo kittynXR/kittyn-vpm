@@ -21,6 +21,12 @@
             ]
         },
         {
+            "name": "cat.kittyn.enhanced-dynamics",
+            "releases": [
+                "https://github.com/kittynXR/enhanced-dynamics/releases/download/v1.0.1/cat.kittyn.enhanced-dynamics-1.0.1.zip"
+            ]
+        },
+        {
             "name": "cat.kittyn.immersive-scaler",
             "releases": [
                 "https://github.com/kittynXR/imscaler/releases/download/v1.0.10/cat.kittyn.immersive-scaler-1.0.10.zip"
