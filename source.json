@@ -17,6 +17,7 @@
         {
             "name": "cat.kittyn.comfi-hierarchy",
             "releases": [
+                "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.8/cat.kittyn.comfi-hierarchy-1.0.8.zip",
                 "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.6/cat.kittyn.comfi-hierarchy-1.0.6.zip",
                 "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.5/cat.kittyn.comfi-hierarchy-1.0.5.zip",
                 "https://github.com/kittynXR/comfi-hierarchy/releases/download/v1.0.4/cat.kittyn.comfi-hierarchy-1.0.4.zip",
