@@ -38,12 +38,47 @@ const setTheme = () => {
   }
 }
 
+const createBubble = () => {
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble';
+  
+  const size = Math.random() * 60 + 20;
+  const startX = Math.random() * window.innerWidth;
+  const endX = startX + (Math.random() - 0.5) * 200;
+  const duration = Math.random() * 8 + 12;
+  const delay = Math.random() * 4;
+  
+  bubble.style.width = `${size}px`;
+  bubble.style.height = `${size}px`;
+  bubble.style.left = `${startX}px`;
+  bubble.style.setProperty('--start-x', '0px');
+  bubble.style.setProperty('--end-x', `${endX - startX}px`);
+  bubble.style.setProperty('--duration', `${duration}s`);
+  bubble.style.setProperty('--delay', `${delay}s`);
+  
+  const bubbleContainer = document.getElementById('bubbleContainer');
+  bubbleContainer.appendChild(bubble);
+  
+  setTimeout(() => {
+    bubble.remove();
+  }, (duration + delay) * 1000);
+};
+
+const initBubbles = () => {
+  setInterval(createBubble, 1500);
+  for (let i = 0; i < 6; i++) {
+    setTimeout(createBubble, i * 300);
+  }
+};
+
 (() => {
   setTheme();
 
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     setTheme();
   });
+
+  initBubbles();
 
   const packageGrid = document.getElementById('packageGrid');
 
