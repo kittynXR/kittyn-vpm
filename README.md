@@ -4,8 +4,20 @@ Welcome to the official VPM (VRChat Package Manager) repository for Kittyn's VRC
 
 ## 🎮 Available Packages
 
-### Immersive Scaler
-A VRChat package that enhances your immersive experience with advanced scaling features.
+### cátte — Comfi Hierarchy
+QoL Hierarchy UI for VRChat Creators — Customizable
+- **Repository**: [kittynXR/comfi-hierarchy](https://github.com/kittynXR/comfi-hierarchy)
+- **Latest Version**: v1.0.3
+
+### cátte — Enhanced Dynamics
+UI Enhancements for VRChat Dynamics (viewport handles, physics preview)
+- **Repository**: [kittynXR/enhanced-dynamics](https://github.com/kittynXR/enhanced-dynamics)
+- **Latest Version**: v1.0.3
+
+### cátte — Immersive Scaler
+Rizz up your immersion! No blender required and non-destructive!
+- **Repository**: [kittynXR/immersive-scaler](https://github.com/kittynXR/immersive-scaler)
+- **Latest Version**: v1.0.2
 
 ## 📦 How to Add to VCC
 
