@@ -1,4 +1,4 @@
-# Kittyn VPM Repository
+# cátte — VPM Repository
 
 Welcome to the official VPM (VRChat Package Manager) repository for Kittyn's VRChat packages!
 
