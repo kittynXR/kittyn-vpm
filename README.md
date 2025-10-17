@@ -19,6 +19,11 @@ Rizz up your immersion! No blender required and non-destructive!
 - **Repository**: [kittynXR/immersive-scaler](https://github.com/kittynXR/immersive-scaler)
 - **Latest Version**: v1.2.1
 
+### vrcprocessor
+No description available
+- **Repository**: [kittynXR/vrcprocessor](https://github.com/kittynXR/vrcprocessor)
+- **Latest Version**: v1.0.1
+
 ## 📦 How to Add to VCC
 
 1. Open VRChat Creator Companion (VCC)
