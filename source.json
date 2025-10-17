@@ -13,6 +13,19 @@
         "text": "View on GitHub"
     },
     "bannerUrl": "VCC_banner.png",
+    "githubRepos": [
+        "kittynXR/comfi-hierarchy",
+        "kittynXR/enhanced-dynamics",
+        "kittynXR/immersive-scaler",
+        "kittynXR/reset-humanoid",
+        "kittynXR/selection-helper",
+        "kittynXR/copy-cut-paste",
+        "kittynXR/no-auto-game",
+        "kittynXR/vrc-processor",
+        "kittynXR/vrcsdk-plus",
+        "kittynXR/animation-hierarchy-editor",
+        "kittynXR/package-processor"
+    ],
     "packages": [
         {
             "name": "cat.kittyn.comfi-hierarchy",
