@@ -93,6 +93,7 @@
         {
             "name": "cat.kittyn.vrcprocessor",
             "releases": [
+                "https://github.com/kittynXR/vrc-processor/releases/download/v1.0.3/cat.kittyn.vrcprocessor-1.0.3.zip",
                 "https://github.com/kittynXR/vrc-processor/releases/download/v1.0.2/cat.kittyn.vrcprocessor-1.0.2.zip",
                 "https://github.com/kittynXR/vrc-processor/releases/download/v1.0.1/cat.kittyn.vrcprocessor-1.0.1.zip"
             ]
