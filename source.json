@@ -35,6 +35,12 @@
             ]
         },
         {
+            "name": "cat.kittyn.copycutpaste",
+            "releases": [
+                "https://github.com/kittynXR/copy-cut-paste/releases/download/v1.0.2/cat.kittyn.copycutpaste-1.0.2.zip"
+            ]
+        },
+        {
             "name": "cat.kittyn.enhanced-dynamics",
             "releases": [
                 "https://github.com/kittynXR/enhanced-dynamics/releases/download/v1.2.1/cat.kittyn.enhanced-dynamics-1.2.1.zip",
