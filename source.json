@@ -95,6 +95,12 @@
             "releases": [
                 "https://github.com/kittynXR/vrc-processor/releases/download/v1.0.1/cat.kittyn.vrcprocessor-1.0.1.zip"
             ]
+        },
+        {
+            "name": "cat.kittyn.vrcsdkplus",
+            "releases": [
+                "https://github.com/kittynXR/vrcsdk-plus/releases/download/v1.6.1/cat.kittyn.vrcsdkplus-1.6.1.zip"
+            ]
         }
     ]
 }
