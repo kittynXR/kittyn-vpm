@@ -79,6 +79,12 @@
             ]
         },
         {
+            "name": "cat.kittyn.resethumanoid",
+            "releases": [
+                "https://github.com/kittynXR/reset-humanoid/releases/download/v1.0.3/cat.kittyn.resethumanoid-1.0.3.zip"
+            ]
+        },
+        {
             "name": "cat.kittyn.vrcprocessor",
             "releases": [
                 "https://github.com/kittynXR/vrc-processor/releases/download/v1.0.1/cat.kittyn.vrcprocessor-1.0.1.zip"
