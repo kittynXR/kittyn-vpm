@@ -47,7 +47,7 @@ No description available
 ### vrcprocessor
 No description available
 - **Repository**: [kittynXR/vrcprocessor](https://github.com/kittynXR/vrcprocessor)
-- **Latest Version**: v1.0.1
+- **Latest Version**: v1.0.3
 
 ### vrcsdkplus
 No description available
