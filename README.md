@@ -22,7 +22,7 @@ UI Enhancements for VRChat Dynamics (viewport handles, physics preview)
 ### cátte — Immersive Scaler
 Rizz up your immersion! No blender required and non-destructive!
 - **Repository**: [kittynXR/immersive-scaler](https://github.com/kittynXR/immersive-scaler)
-- **Latest Version**: v1.2.1
+- **Latest Version**: v1.3.1
 
 ### noautogame
 No description available
